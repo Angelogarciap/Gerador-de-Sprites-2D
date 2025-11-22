@@ -18,10 +18,13 @@ venv\Scripts\activate
 
 Com o ambiente virtual criado, já é possível instalar os pacotes do projeto. Para listá-los, escreva o seguinte comando:
 
+pip freeze
+
+Para adicionar bibliotecas no requirements.txt, é necessário executar o seguinte comando.
+
 pip freeze > requirements.txt
 
-Isso garantirá que as versões dos pacotes sejam registradas, permitindo que outros desenvolvedores instalem as mesmas versões ao rodar:
-
+A instalação das bibliotecas na sua máquina ocorrerá quando o comando abaixo for executado no terminal.
 pip install -r requirements.txt
 
 # Ferramentas para o projeto
