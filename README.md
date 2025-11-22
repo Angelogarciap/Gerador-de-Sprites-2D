@@ -23,3 +23,15 @@ pip freeze > requirements.txt
 Isso garantirá que as versões dos pacotes sejam registradas, permitindo que outros desenvolvedores instalem as mesmas versões ao rodar:
 
 pip install -r requirements.txt
+
+# Ferramentas para o projeto
+
+Dataset
+
+ImageNet é um banco de dados de imagens organizado de acordo com a hierarquia WordNet, no qual cada nó da hierarquia é representado por centenas e milhares de imagens.
+
+Bibliotecas
+
+OpenCv
+Pytorch
+Tensorflow
