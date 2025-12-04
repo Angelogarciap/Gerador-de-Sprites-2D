@@ -87,19 +87,19 @@ CycleGAN é uma abordagem de aprendizado de máquina utilizada para tradução d
 
 Detecção do objeto -> Recorte -> Processamento da imagem -> Pixelização -> Pós-processamento
 
-_Detecção do objeto_
+_Detecção do objeto_:
 Detecta o objeto na imagem.
 
-_Recorte_
+_Recorte_:
 Recorta o objeto da imagem original.
 
-_Processamento da imagem_
+_Processamento da imagem_:
 Etapa de ajuste na resolução da imagem, paletas, filtros, masking e recorte
 
-_Pixelização_
+_Pixelização_:
 Etapa em que a imagem é estilizada em pixel art
 
-_Pós-processamento_
+_Pós-processamento_:
 Etapa de ajuste de resolução da imagem, paleta e recorte de pixels
 
 # Modelos
@@ -121,17 +121,7 @@ Versão adaptada (adapter / LoRA) para gerar pixel art “grid-aligned” a part
 
 https://huggingface.co/nerijs/pixel-art-3.5L
 
-°kadirnar/pixelparti-128-v0.4
-Um LoRA / adaptação com trigger de “pixel art style”, pensada para imagens com estética de pixel art
-
-https://huggingface.co/kadirnar/pixelparti-128-v0.4
-
 °pixelparty/pixel-party-xl
 Modelo treinado especificamente com foco em pixel art, baseado na versão XL. Indicado para criar sprites, tiles, personagens ou objetos no estilo retro/pixel.
 
 https://huggingface.co/pixelparty/pixel-party-xl
-
-# A decidir
-
--> Resolução das imagens
--> Estilo de pixel art
